@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+.app {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e60012;
+  padding: 1em;
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.app img {
+  max-width: 150px;
+}
+
+.navbar{
+  position: fixed;
+  
+  overflow-y: scroll;
+  height: 350px;
+}
+.Header{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.lookingFor{
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 1px dashed #e60012;
+  text-align: center;
+  font-size: 1em;
+  padding: 0.5em;
+  font-style: italic;
+  font-family: 'Press Start 2P', cursive;
+}
+.container{
+  background-color: white;
+}
+.MainSearch{
+  background-color: white;
+  width: 500px;
+  margin-left: 25%;
+  
+  
+}
+.boxes{
+  justify-content: space-around;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2em;
+  
+}
+
+.box{
+  border : 1px solid dashed grey;
+  height: 320px;
+  width: 220px;
+  margin-bottom: 1em;
+  border-radius: 10px
+}
+
+.navbar_item{
+  padding: 0.5em;
+  text-align: justify;
+  font-size: 0.5em;
+  font-weight: bold;
+ 
+  margin: 0.2em 0;
+  margin-right: 2em;
+}
+
+.Header h1 {
+  font-size: 2em;
+  color: red;
+}
+
+.visible-scrollbar, .invisible-scrollbar, .mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 2em;
+}
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: red; /* or add it to the track */
+}
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: red;
+}
